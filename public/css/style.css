@@ -1,0 +1,56 @@
+@font-face {
+		  font-family: 'OpenSanBold';
+		  src: url('../fonts/OpenSans-Bold.eot'); /* IE9 Compat Modes */
+		  src: url('../fonts/OpenSans-Bold.woff') format('woff'), /* Modern Browsers */
+		       url('../fonts/OpenSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+		    	url('../fonts/OpenSans-Bold.otf')  format('opentype') /* Safari, Android, iOS */
+		          
+	   }
+
+body{
+	background-color: #3c3c3c;
+	color: white;
+	font-family: OpenSanBold !important;
+}
+
+
+
+.img-keyboard img{
+			width: 600px;
+			height: 200px;
+			display: block;
+			margin:60 auto;
+}
+.home-taglines{
+	font-family: OpenSanBold !important;
+	color:red;
+	text-align: center;
+}
+.home-taglines h1:nth-child(2){
+	font-size:40px;
+}
+.home-taglines h1:first-child{
+	font-size:80px;
+}
+.home-taglines h1:last-child{
+	font-size:80px;
+}
+.panel-body{
+	margin-top:150px;
+}
+.welcome_note{
+	text-align: center !important;
+}
+
+.well label{
+	color:#3c3c3c;
+}
+
+
+.desc_wide tbody tr td:nth-child(2) {
+        width:480px !important;
+}
+
+#calender_btn{
+	/*display: none;*/
+}
